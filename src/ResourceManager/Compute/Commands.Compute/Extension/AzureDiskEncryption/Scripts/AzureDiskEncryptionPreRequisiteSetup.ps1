@@ -268,3 +268,4 @@ foreach($vm in $allVMs)
     # Show encryption status of the VM
     Get-AzureRmVmDiskEncryptionStatus -ResourceGroupName $vm.ResourceGroupName -VMName $vm.Name;
 }
+###addging this line to make githun accept the propised change.##
